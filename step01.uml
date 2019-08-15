@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>chapter01.step01</OriginalElement>
+  <nodes>
+    <node x="-313.0" y="-64.0">chapter01.step01.TicketOffice</node>
+    <node x="-514.0" y="-218.0">chapter01.step01.Audience</node>
+    <node x="16.0" y="-200.0">chapter01.step01.Invitation</node>
+    <node x="-511.0" y="-71.0">chapter01.step01.TicketSeller</node>
+    <node x="-334.0" y="-205.0">chapter01.step01.Bag</node>
+    <node x="20.0" y="-117.0">chapter01.step01.Ticket</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="chapter01.step01.Audience" target="chapter01.step01.Bag">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="chapter01.step01.Bag" target="chapter01.step01.Ticket">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="chapter01.step01.TicketOffice" target="chapter01.step01.Ticket">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="chapter01.step01.TicketSeller" target="chapter01.step01.TicketOffice">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="chapter01.step01.Bag" target="chapter01.step01.Invitation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-119.0" y="42.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
