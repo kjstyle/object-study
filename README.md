@@ -1,5 +1,4 @@
-# the object book study
-## CHAPTER01
+## CHAPTER01. 객체 설계
 * 모든 소프트웨어에는 3가지 목적
     * 제대로 실행되는 것
     * 변경을 위해 존재하는 것
