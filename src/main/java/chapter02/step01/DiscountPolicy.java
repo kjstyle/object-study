@@ -17,8 +17,8 @@ public abstract class DiscountPolicy {
 
 	public Money calculateDiscountAmount(Screening screening) {
 		for (DiscountCondition each : conditions) {
-			if (each.isSatisfiedBy(screening)) {
-				return getDiscountAmount(screening);
+			if (each.isSatisfiedBy(screening)) { // 상영정보를 넘겨주고 할인조건을 만족하는지 확인
+				return getDiscountAmount(screening); // 할인조건을 만족하면 구현체에서 정의한 할인금액을 반환하도록함
 			}
 		}
 		return Money.ZERO;
