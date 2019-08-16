@@ -4,7 +4,7 @@ import java.time.DayOfWeek;
 import java.time.LocalTime;
 
 /**
- * 상영시작시간이 특정기간 안에 포함될 경우 할인정책
+ * 상영시작시간이 특정기간 안에 포함될 경우 할인조건
  */
 public class PeriodCondition implements DiscountCondition {
 
